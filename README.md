@@ -86,7 +86,7 @@ Detailed API documentation available here:
 
 ### Get All Students API
 
-![Get All Students](screenshots/getdetails.png)
+![Get All Students](screenshots/getdetails-json.png)
 
 ---
 
