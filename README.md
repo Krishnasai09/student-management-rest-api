@@ -66,7 +66,7 @@ Example exceptions:
 
 ## Tools Used
 
-- Spring Tool Suite / IntelliJ / VS Code
+- Spring Tool Suite / VS Code
 - Postman
 - MySQL Workbench
 - Git & GitHub
