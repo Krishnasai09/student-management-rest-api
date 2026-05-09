@@ -4,6 +4,20 @@ A backend REST API application developed using Spring Boot and MySQL to manage s
 
 ---
 
+## Features
+
+- Register Student
+- Get All Students
+- Get Student By ID
+- Update Student
+- Delete Student
+- Global Exception Handling
+- Structured JSON Error Responses
+- HTTP Status Code Management
+- MySQL Database Integration
+
+---
+
 ## Technologies Used
 
 - Java
@@ -13,37 +27,27 @@ A backend REST API application developed using Spring Boot and MySQL to manage s
 - Maven
 - REST APIs
 - Postman
-
----
-
-## Features
-
-- Register Student
-- Get All Students
-- Get Student By ID
-- Update Student
-- Delete Student
-- Global Exception Handling
-- Structured API Error Responses
-- HTTP Status Code Management
+- Git & GitHub
 
 ---
 
 ## Project Architecture
 
-Controller Layer → Service Layer → Repository Layer → MySQL Database
+```text
+Client → Controller → Service → Repository → MySQL Database
+```
 
 ---
 
 ## API Endpoints
 
-| Method | Endpoint       | Description       |
-| ------ | -------------- | ----------------- |
-| POST   | /students      | Register Student  |
-| GET    | /students      | Get All Students  |
-| GET    | /students/{id} | Get Student By ID |
-| PUT    | /students/{id} | Update Student    |
-| DELETE | /students/{id} | Delete Student    |
+| Method | Endpoint             | Description       |
+| ------ | -------------------- | ----------------- |
+| POST   | /registerStudent     | Register Student  |
+| GET    | /getDetails          | Get All Students  |
+| GET    | /getStudentById/{id} | Get Student By ID |
+| PUT    | /updateStudent/{id}  | Update Student    |
+| DELETE | /deleteStudent/{id}  | Delete Student    |
 
 ---
 
@@ -53,14 +57,66 @@ Implemented centralized exception handling using:
 
 - `@RestControllerAdvice`
 - Custom Exceptions
-- Structured Error Responses
+- Structured JSON Error Responses
 - HTTP Status Codes
 
-Example exceptions:
+### Custom Exceptions
 
-- StudentIdNotFoundException
-- RegisterStudentInvalidDataException
-- InvalidUpdateStudentException
+- `StudentIdNotFoundException`
+- `RegisterStudentInvalidDataException`
+- `InvalidUpdateStudentException`
+
+---
+
+## API Documentation
+
+Detailed API documentation available here:
+
+[View API Documentation](docs/api-documentation.md)
+
+---
+
+## API Screenshots
+
+### Register Student API
+
+![Register Student](screenshots/register-student.png)
+
+---
+
+### Get All Students API
+
+![Get All Students](screenshots/get-all-students.png)
+
+---
+
+### Get Student By ID API
+
+![Get Student By ID](screenshots/get-student-by-id.png)
+
+---
+
+### Update Student API
+
+![Update Student](screenshots/update-student.png)
+
+---
+
+### Delete Student API
+
+![Delete Student](screenshots/delete-student.png)
+
+---
+
+### Exception Handling Response
+
+![Exception Response](screenshots/exception-response.png)
+
+---
+
+### MySQL Database Table
+
+![MySQL Database](screenshots/mysql-student-table.png)
 
 ---
 
@@ -79,7 +135,8 @@ Example exceptions:
 - JWT Authentication
 - Role-Based Authorization
 - Docker Deployment
-- Validation using DTOs
+- DTO Validation
+- API Validation using Hibernate Validator
 
 ---
 
