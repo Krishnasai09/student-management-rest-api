@@ -85,4 +85,4 @@ Example exceptions:
 
 ## Author
 
-Ravi Lingeswara Krishna Sai
+Krishna Sai
