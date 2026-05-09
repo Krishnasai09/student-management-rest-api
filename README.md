@@ -80,43 +80,43 @@ Detailed API documentation available here:
 
 ### Register Student API
 
-![Register Student](screenshots/register-student.png)
+![Register Student](screenshots/registerstudent.png)
 
 ---
 
 ### Get All Students API
 
-![Get All Students](screenshots/get-all-students.png)
+![Get All Students](screenshots/getdetails.png)
 
 ---
 
 ### Get Student By ID API
 
-![Get Student By ID](screenshots/get-student-by-id.png)
+![Get Student By ID](screenshots/getstudentbyid.png)
 
 ---
 
 ### Update Student API
 
-![Update Student](screenshots/update-student.png)
+![Update Student](screenshots/updatestudent.png)
 
 ---
 
 ### Delete Student API
 
-![Delete Student](screenshots/delete-student.png)
+![Delete Student](screenshots/deletestudent.png)
 
 ---
 
 ### Exception Handling Response
 
-![Exception Response](screenshots/exception-response.png)
+![Exception Response](screenshots/registerstudent-exception.png)
 
 ---
 
 ### MySQL Database Table
 
-![MySQL Database](screenshots/mysql-student-table.png)
+![MySQL Database](screenshots/database-table.png)
 
 ---
 
